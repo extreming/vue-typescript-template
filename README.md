@@ -1,4 +1,4 @@
-# p2b
+# vue+typescript+stylus+yarn template
 
 ## Project setup
 ```
