@@ -37,7 +37,7 @@ module.exports = {
         }
     },
     // 配置ts版import按需引入
-    // parallel: false,
+    parallel: false,
     chainWebpack: config => {
         const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
         types.forEach(type => addStyleResource(config.module.rule('stylus').oneOf(type)))
