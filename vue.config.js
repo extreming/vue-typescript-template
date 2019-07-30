@@ -18,7 +18,7 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-    publicPath: '/',
+    publicPath: '',
     // vant rem配置
     css: {
         loaderOptions: {
